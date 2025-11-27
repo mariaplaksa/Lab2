@@ -16,7 +16,8 @@ public class Task4 {
                 if (start == i - 1) {
                     out.print(a[start]);
                     out.print(" ");
-                } else {
+                } 
+                else {
                     out.print(a[start] + "-" + a[i - 1]);
                     out.print(" ");
                 }
@@ -25,7 +26,8 @@ public class Task4 {
         }
         if (start == n - 1) {
             System.out.print(a[start]);
-        } else {
+        } 
+        else {
             System.out.print(a[start] + "-" + a[n - 1]);
         }
     }
