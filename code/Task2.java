@@ -23,7 +23,8 @@ public class Task2 {
                         alt++;
                     }
                 }
-            } else {
+            } 
+            else {
                 if (lenght > bestlenght ||
                         (lenght == bestlenght && alt > bestalt)) {
                     bestlenght = lenght;
