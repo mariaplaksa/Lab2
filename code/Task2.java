@@ -25,8 +25,7 @@ public class Task2 {
                 }
             } 
             else {
-                if (lenght > bestlenght ||
-                        (lenght == bestlenght && alt > bestalt)) {
+                if (lenght > bestlenght || (lenght == bestlenght && alt > bestalt)) {
                     bestlenght = lenght;
                     beststart = start;
                     bestalt = alt;
